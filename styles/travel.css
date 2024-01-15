@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-container{
+border: 2px solid green;
+width: 1170px;
+height: 500px;
+max-width: 80%;
+margin-right: auto;
+margin-left: auto;
+background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+
+
+
+}
+.banner-heading{
+border: 2px solid tomato;
+color: rgb(243, 19, 19);
+font-size: 2em;
+font-weight: 800;
+text-align: center;
+padding: 80px 150px 30px 150px;
+}
+.banner-description{
+border: 2px solid skyblue;
+color: white
+padding:0 100px;
+marg
+text-align: center;
+font: size 1em;
+font-weight: 400px;
+
+line-height: 1.6; /* 162.5% */
+
+
+
+}
+.banner-fill{
+border: 2px solid red;
+width: 700px;
+height: 70px;
+text-align: center;
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(236, 228, 228, 0.712);
+ margin-left:  100px; 
+
+}
+.primary-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+ 
+}
+.search-btn{
+border: 1px solid blue;
+background: #FF5400;
+ color: rgb(255, 255, 255);
+font-size: 16px;
+width: 150px;
+height: 40px;
+border-radius: 5px;
+text-align: center;
+
+}
