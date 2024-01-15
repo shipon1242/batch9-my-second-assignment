@@ -72,6 +72,25 @@ border-radius: 5px;
 text-align: center;
 
 }
+.popular-container{
+    display: flex;
+   
+    text-align: center;
+
+}
+.popular-description{
+
+}
+.popular-image{
+
+}
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
     .banner-container{
         width: 335px;
