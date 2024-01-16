@@ -291,6 +291,42 @@ margin-right: 5px;
     border-radius: 8px;
     border: none;
 }
+.footer-conainer{
+    
+    max-width: 1170px;
+max-height: 502px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+background: rgba(19, 19, 24, 0.05);
+}
+#image-fly{
+
+}
+.footer-section{
+   
+    margin: 20px 60px 20px 60px;
+
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 30px;
+
+}
+.footer-logo{
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+#copyright{
+    margin-top: 70px;
+}
 
 
 
@@ -411,21 +447,20 @@ margin-top: ;
     margin-right:0 80px 30px 30px;
 }
 .newsletter-firstpart{
-   
-   width: 335px;
+   max-width: 320px;
     width: 100%;
-    margin:0 ;
+    margin:0;
     margin-bottom: 40px;
-    border-radius: 1px solid tomato;
+    border: 1px solid tomato;
+    border-radius: 5px;
     
     
 
 }.newsletter-img img{
     
     border-radius: 10px;
-   max-height: 500px;
    width: 100%;
-   max-width: 335px;
+   
    height: 100%;
    
 
