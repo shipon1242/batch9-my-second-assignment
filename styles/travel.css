@@ -185,6 +185,9 @@ margin:0 auto
     padding: 40px;
 
 }
+.why-img{
+    padding-bottom: 20px;
+}
 
 .box-1 {
    
@@ -195,7 +198,7 @@ margin:0 auto
 .box-2 {
     border: 2px solid rgb(56, 4, 20);
     background: rgba(41, 206, 246, 0.05);
-  margin-right: 0;
+  margin-right:0;
    
   
 }
