@@ -73,15 +73,40 @@ text-align: center;
 
 }
 .popular-container{
+    border: 2px solid blue;
+    width: 1170px;
     display: flex;
-   
-    text-align: center;
+   max-width:80%;
+   margin-left: auto;
+   margin-right: auto;
+    
+    justify-content: space-between;
+    max-height: 550px;
+
+
+  
 
 }
 .popular-description{
-
+border: 2px solid gold;
+max-height:100% ;
+max-width: 46%;
+margin-left:0;
 }
 .popular-image{
+    border: 2px solid red;
+   justify-content: space-around;
+   max-width: 540px;
+   max-width: 46%;
+   max-height: 100%;
+   max-width: 540px;
+   margin-right: 0;
+   padding-right: 0;
+   
+
+
+
+
 
 }
 
