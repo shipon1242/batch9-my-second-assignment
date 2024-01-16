@@ -447,23 +447,27 @@ margin-top: ;
     margin-right:0 80px 30px 30px;
 }
 .newsletter-firstpart{
-   max-width: 320px;
+   max-width: 250px;
     width: 100%;
     margin:0;
     margin-bottom: 40px;
     border: 1px solid tomato;
     border-radius: 5px;
-    
+    padding: 0;
     
 
 }.newsletter-img img{
-    
+    wi
     border-radius: 10px;
    width: 100%;
-   
+   padding: 0;
    height: 100%;
+   margin: 0;
    
 
+}
+.footer-conainer{
+    width: 100%;
 }
 
 }
