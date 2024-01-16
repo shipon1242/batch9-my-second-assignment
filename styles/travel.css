@@ -89,7 +89,7 @@ text-align: center;
 
 }
 .popular-headig{
-    font-size: 24px;
+    font-size: 40px;
     max-width: 400px;
     margin-bottom: 10px;
     color: black;
@@ -98,7 +98,7 @@ text-align: center;
 .popular-description{
 border: 2px solid gold;
 color: rgba(19, 19, 24, 0.70);
-font-size: 14px;
+font-size: 16px;
 max-height:100% ;
 max-width: 46%;
 margin-left:0;
@@ -143,20 +143,71 @@ padding-right: 20px;
 }
 /*why choose us*/
 .why-chose-us-container{
+border: 2px solid greenyellow;
+width: 1170px;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+.choose-us-first-part{
+    width: 500px;
+text-align: center;
+align-items: center;
+width: 50%;
+margin:0 auto
 
 }
 .why-chose-us-heading{
-
+    border: 2px solid rgb(209, 104, 17);
+    margin-bottom: 10px;
+    font-size: 40px;
 }
 .why-chose-us-description{
+    border: 2px solid rgb(138, 13, 121);
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(19, 19, 24, 0.70);
 
 }
 .box{
+    border: 2px solid rgb(16, 199, 223);
+    display: flex;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+}
+.box >.box-1,.box-2,.box-3 {
+    max-width: 573px;
+    min-height: 283px;
+    border-radius: 16px;
+    padding: 40px;
 
 }
-.box-1,.box-2,.box-3{
+
+.box-1 {
+   
+    border: 2px solid rgb(236, 31, 17);
+    margin-right: 20px;
+    background: rgba(251, 181, 99, 0.05);
+}
+.box-2 {
+    border: 2px solid rgb(56, 4, 20);
+    background: rgba(41, 206, 246, 0.05);
+  margin-right: 0;
+   
+  
+}
+.box-3{
+    border: 2px solid rgb(107, 31, 158);
+    width:100%;
+   margin-left: 50%;
+   margin-top: 20px;
+   background: rgba(233, 68, 68, 0.05);
     
 }
+
 
 
 
