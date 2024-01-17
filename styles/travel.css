@@ -21,10 +21,11 @@ background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
 .banner-heading{
 
 color: white;
-font-weight: 800;
+
+font-weight: 800px;
 text-align: center;
 padding: 80px 40px 30px 40px;
-font-size: 30px;
+font-size: 40px;
 }
 .banner-description{
 
@@ -213,6 +214,7 @@ line-height: 26px; /* 162.5% */
     
     margin-left: 0;
 }
+
 /*why choose us*/
 .why-chose-us-container{
 
