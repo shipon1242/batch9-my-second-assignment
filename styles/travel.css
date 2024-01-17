@@ -27,7 +27,7 @@ padding: 80px 40px 30px 40px;
 font-size: 30px;
 }
 .banner-description{
-border: 2px solid skyblue;
+
 color: white;
 
  padding:0 100px;
@@ -42,8 +42,8 @@ line-height: 1.6; /* 162.5% */
 }
 .banner-fill{
 
-width: 75%;
-height: 70px;
+width: 55%;
+height: 75px;
 text-align: center;
 margin-top: 100px;
 display: flex;
@@ -139,25 +139,59 @@ padding-right: 20px;
    object-fit: cover;
    margin-right: 0;
    padding-right: 0;
-   padding-left: 10px;
+   padding-left: 10px;}
 
+.destination-section{
+    width: 1170px;
+    height: 900px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 .image-container{
     
 display: flex;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-    width: 100;
+    max-width: 1170px;
+    width: 100%;
+    height:100%
     gap: 20px;
     margin: 10px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    max-height: 1000px;
+   
 }
 .image-container img{
     width: 100%;
+    max-height: 200px;
 }
+.row-1,.row-2,.row-3 {
+   
+    display: flex;
+    object-fit: cover;
+    gap: 20px;
+    width: 100%;
+    margin-left: 0;
+}
+.destiantion-title{
+    color: #131318;
+
+text-align: center;
+font-size: 40px;
+
+font-weight: 800;
+margin-bottom: 10px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
 .detination{
     max-width: 80%;
     margin-left: auto;
@@ -166,6 +200,18 @@ display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.row-1,.row-2,.row-3 img{border: 2px solid t;
+    width: 100%;
+   height: 100%;
+   margin-bottom: 20px;
+}
+.row-1,.row-2,.row-3 {display: flex;
+    object-fit: cover;
+    gap: 20px;
+    width: 100%;
+    
+    margin-left: 0;
 }
 /*why choose us*/
 .why-chose-us-container{
@@ -248,7 +294,8 @@ margin:0 auto
    margin-top: 100px;
 }
 .newsletter-firstpart{
-    
+    border: 1px solid tomato;
+    border-radius: 5px;
     width: 500px;
     width: 40%;
     margin:0 ;
@@ -301,7 +348,7 @@ margin-right: 5px;
    object-fit: cover;
    margin-right: 20px;
    padding-right: 0;
-   margin-left: 5px;
+   margin-left: 15px;
 
 
 }
@@ -365,6 +412,7 @@ background: rgba(19, 19, 24, 0.05);
 
 
 @media screen and (max-width:600px) {
+    
     .banner-container{
         width: 335px;
 height: 483px;
@@ -425,6 +473,56 @@ gap: 10px;
       max-width:100%;
        
     }
+/*destination*/
+.destination-section{
+    display: block;
+    
+        width: 1170px;
+        height: 1600px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .destiantion-title{
+        
+    
+    font-size:18px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+    }
+    .destination-description{
+        color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height:10px; /* 162.5% */
+    }
+   
+
+.row-1,.row-2,.row-3{
+    display: block;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.row-1,.row-2,.row-3 img{
+    gap: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.spuare-immages{
+    margin-bottom: 20px;
+}
+
+
+
     .why-chose-us-container{
        
         width: 335px;
